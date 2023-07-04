@@ -8,15 +8,16 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "jsxSingleQuote": true,
-  "organizeImportsSkipDestructiveCodeActions": true, // install the package ---> npm install --save-dev prettier-plugin-organize-imports
+  "organizeImportsSkipDestructiveCodeActions": true, // npm install --save-dev prettier-plugin-organize-imports
   "semi": true,
   "singleQuote": false,
+  "plugins": ["prettier-plugin-organize-imports"],
   "overrides": [
     {
-      "files": "*.yml",
+      "files": ["**/*.js", "**/*.jsx"],
       "options": {
-        "singleQuote": false,
-        "tabWidth": 2
+        "parser": "babel",
+        "plugins": ["prettier-plugin-organize-imports"]
       }
     }
   ]
