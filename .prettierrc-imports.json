@@ -1,0 +1,12 @@
+{
+  "plugins": ["prettier-plugin-organize-imports"],
+  "overrides": [
+    {
+      "files": ["**/*.js", "**/*.jsx"],
+      "options": {
+        "parser": "babel",
+        "plugins": ["prettier-plugin-organize-imports"]
+      }
+    }
+  ]
+}
