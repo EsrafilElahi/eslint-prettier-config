@@ -1,14 +1,16 @@
 {
   "arrowParens": "always",
-  "useTabs": false,
+  "useTabs": true,
   "bracketSpacing": false,
   "endOfLine": "lf",
   "printWidth": 70,
   "quoteProps": "as-needed",
   "tabWidth": 2,
   "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "organizeImportsSkipDestructiveCodeActions": true, // install the package ---> npm install --save-dev prettier-plugin-organize-imports
   "semi": true,
-  "singleQuote": true, // or false
+  "singleQuote": false,
   "overrides": [
     {
       "files": "*.yml",
