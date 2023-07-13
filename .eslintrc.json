@@ -36,7 +36,13 @@
 		"react/react-in-jsx-scope": "off",
 		"react/prop-types": "off",
 		"import/no-unresolved": "off",
-		"no-unused-vars": "off",
+		// "no-unused-vars": "off",
+		"no-unused-vars": [
+			"warn",
+			{
+				"vars": "all"
+			}
+		],
 		// "quotes": ["error", "double"],  ---> to force use double quote
 		"no-console": "off"
 	},
