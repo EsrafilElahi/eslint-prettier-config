@@ -12,7 +12,9 @@
 		"plugin:react-hooks/recommended",
 		"plugin:jsx-a11y/recommended",
 		"plugin:prettier/recommended",
-		"prettier"
+		"prettier",
+		"plugin:@typescript-eslint/recommended",
+    		"eslint-config-prettier"
 	],
 	// "parserOptions": {
 	//   "ecmaFeatures": {
