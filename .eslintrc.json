@@ -14,7 +14,7 @@
 		"plugin:prettier/recommended",
 		"prettier",
 		"plugin:@typescript-eslint/recommended",
-    		"eslint-config-prettier"
+		"eslint-config-prettier"
 	],
 	// "parserOptions": {
 	//   "ecmaFeatures": {
@@ -29,22 +29,21 @@
 			"warn",
 			// override the .prettierrc file
 			{
-				"singleQuote": "off",
+				"singleQuote": true,
 				"parser": "babel"
 			}
 		],
+		"@typescript-eslint/no-empty-interface": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/prop-types": "off",
 		"import/no-unresolved": "off",
-		// "no-unused-vars": "off",
-		"no-unused-vars": [
-			"warn",
-			{
-				"vars": "all"
-			}
-		],
+		"@typescript-eslint/no-explicit-any": "off",
+		"no-unused-vars": "warn",
+		"@typescript-eslint/no-unused-vars": "off",
+		"prefer-const": "warn",
+		"@typescript-eslint/ban-types": "warn",
 		// "quotes": ["error", "double"],  ---> to force use double quote
-		"no-console": "off"
+		"no-console": 2
 	},
 	"settings": {
 		"react": {
