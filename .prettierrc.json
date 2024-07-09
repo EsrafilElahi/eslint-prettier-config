@@ -1,24 +1,24 @@
 {
-  "arrowParens": "always",
-  "useTabs": true,
-  "bracketSpacing": true,
-  "endOfLine": "lf",
-  "printWidth": 70,
-  "quoteProps": "as-needed",
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "jsxSingleQuote": true,
-  "organizeImportsSkipDestructiveCodeActions": true, // npm install --save-dev prettier-plugin-organize-imports
-  "semi": true,
-  "singleQuote": false,
-  "plugins": ["prettier-plugin-organize-imports"],
-  "overrides": [
-    {
-      "files": ["**/*.js", "**/*.jsx"],
-      "options": {
-        "parser": "babel",
-        "plugins": ["prettier-plugin-organize-imports"]
-      }
-    }
-  ]
+	"arrowParens": "always",
+	"useTabs": true,
+	"bracketSpacing": true,
+	"endOfLine": "lf",
+	"printWidth": 180,
+	"trailingComma": "none",
+	"quoteProps": "as-needed",
+	"tabWidth": 2,
+	"jsxSingleQuote": true,
+	"organizeImportsSkipDestructiveCodeActions": true, // npm install --save-dev prettier-plugin-organize-imports
+	"semi": true,
+	"singleQuote": true,
+	"plugins": ["prettier-plugin-organize-imports"],
+	"overrides": [
+		{
+			"files": ["**/*.ts", "**/*.tsx"],
+			"options": {
+				"parser": "babel",
+				"plugins": ["prettier-plugin-organize-imports"]
+			}
+		}
+	]
 }
