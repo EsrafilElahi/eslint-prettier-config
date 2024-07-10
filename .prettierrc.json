@@ -8,7 +8,7 @@
 	"quoteProps": "as-needed",
 	"tabWidth": 2,
 	"jsxSingleQuote": true,
-	"organizeImportsSkipDestructiveCodeActions": true, // npm install --save-dev prettier-plugin-organize-imports
+	"organizeImportsSkipDestructiveCodeActions": true, // npm install --save-dev prettier-plugin-organize-imports || if it's false, remove unused imports
 	"semi": true,
 	"singleQuote": true,
 	"plugins": ["prettier-plugin-organize-imports"],
