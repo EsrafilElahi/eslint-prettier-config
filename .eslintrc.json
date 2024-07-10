@@ -42,8 +42,10 @@
 		"@typescript-eslint/no-unused-vars": "off",
 		"prefer-const": "warn",
 		"@typescript-eslint/ban-types": "warn",
+		"unused-imports": "warn",
 		// "quotes": ["error", "double"],  ---> to force use double quote
-		"no-console": 2
+		"no-console": 2,
+		"react/jsx-key": [2, { "checkFragmentShorthand": true }]
 	},
 	"settings": {
 		"react": {
