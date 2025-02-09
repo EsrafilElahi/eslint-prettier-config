@@ -1,4 +1,24 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run build --> must be define in package.json
+echo "-------------------------- Start Building --------------------------"
+# npm run build
+echo "-------------------------- End Building --------------------------"
+
+echo "-------------------------- Start Next.js Server --------------------------"
+# PORT=3001
+# Start the Next.js server in the background and Save the process ID of the server
+# npx next start -p ${PORT} & SERVER_PID=$!
+
+# Wait for the server to be ready (adjust the sleep time if needed)
+# sleep 10
+
+echo "-------------------------- Start Checking Curl --------------------------"
+# Pass first argument for check_curl.sh file to check port
+# bash check_curl.sh ${PORT}
+echo "-------------------------- End Checking Curl --------------------------"
+
+echo "-------------------------- Stop Next.js Server --------------------------"
+# Stop the server after the curl checks are done
+# kill -9 $SERVER_PID
+# fuser -k ${PORT}/tcp
