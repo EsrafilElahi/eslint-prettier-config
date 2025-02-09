@@ -7,7 +7,7 @@ This repository provides a basic setup and configuration guide for integrating E
 npx husky add .husky/pre-push "npm run lint"
 ```
 
-### just use organize iports plugin in the specific directories : 
+### just use organize imports plugin in the specific directories : 
   - npx prettier --write --config .prettierrc-imports.json pages/ components/ lib/ styles/
 ### use all prettier configs in the specific directories : 
   - npx prettier --write pages/ components/ lib/ styles/
